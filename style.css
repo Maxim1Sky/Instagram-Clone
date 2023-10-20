@@ -1,0 +1,23 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: first baseline;
+}
+
+.text-logo {
+  width: 40%;
+}
+
+.inputSpace {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+input {
+  width: 15em;
+  height: 2.5em;
+  margin-bottom: 7px;
+}
+/* 231 for border line */
