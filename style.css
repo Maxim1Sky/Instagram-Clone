@@ -2,22 +2,32 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: first baseline;
 }
 
 .text-logo {
   width: 40%;
+  padding-top: 70px;
 }
 
 .inputSpace {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  padding: 10px;
 }
 
 input {
   width: 15em;
   height: 2.5em;
   margin-bottom: 7px;
+}
+
+.loginBtn {
+  color: white;
+  background-color: rgb(105, 179, 243);
+  width: 16em;
+  height: 3em;
+  border-radius: 10px;
+  border: none; /* Remove the default button border */
+  cursor: pointer;
 }
 /* 231 for border line */
